@@ -10,10 +10,10 @@ player2.setAttribute("src","Images/dice"+random2+".png");
 
 var result=document.getElementById("result");
 if(random1>random2){
-  result.innerHTML="Player 1 Wins";
+  result.innerHTML="Ragini Wins";
 }
 else if(random1<random2){
-result.innerHTML="Player 2 Wins";
+result.innerHTML="Aadesh Wins";
 }
 else
 {
